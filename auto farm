@@ -70,23 +70,6 @@ local function spawnvehicle()
 end
 
 
-
-
-
-
-local StarterGui = game:GetService("StarterGui")
-ProximityPrompt.Triggered:Connect(function()
-    StarterGui:SetCore("MakeSystemMessage", {Text = "MS de ip bula :))))))"}
-end)
-
-local counter = 0
-
-while counter < 999999999999999999999999999999999999999999999999999 do
-  print("MS de ip bula :))))))")
-  counter = counter + 1
-end
-
-
 Main:Toggle({
     Name = "Auto Delivery Truck",
 	StartingState = false,
@@ -327,3 +310,10 @@ GUI:Credit{
 }
 
 GUI:set_status("Status | Active")
+
+local counter = 0
+
+while counter < 999999999999999999999999999999999999999999999999999 do
+  print("MS de ip bula :))))))")
+  counter = counter + 1
+end
